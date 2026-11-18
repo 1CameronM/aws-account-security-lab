@@ -87,7 +87,7 @@ Everything is in the Ohio region (us-east-2).
 
 ## What I learned
 
-* Most of AWS security is boring settings that you have to actually go check, because defaults aren't always safe and sometimes a setting doesn't save the way you expect
+* Most of AWS security configuration details that you have to actually go check, because defaults aren't always safe and sometimes a setting doesn't save the way you expect
 * Regions matter. Services like GuardDuty and CloudTrail trails behave differently per region, so it's easy to turn something on in the wrong place
 * AdministratorAccess is too broad for real use. I used it to keep this lab simple, but in a real environment I'd write least privilege policies for each job
 * CloudTrail only shows you something if you actually look at it. Having logs doesn't help if nobody reads them, which is why detection tools like GuardDuty are useful on top
